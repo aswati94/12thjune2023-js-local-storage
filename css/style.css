@@ -1,5 +1,5 @@
 
-.s_search_input:focus + .s_search{
+.s_search_input:focus + .s_search{   /*adjacent sibling selector */
     display: block;  /* show */
 
 }
@@ -7,3 +7,12 @@
 .s_search{
     display: none;  /* hide */
 }
+
+.s_tbdr{
+    border: 1px solid red;
+}
+
+ /* points to remember:-
+
+ 1. Html events are "things/actions" that happens to HTML elements
+ 2. formula for events :- <element event = 'some javascript'>
